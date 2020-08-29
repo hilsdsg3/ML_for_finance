@@ -1,4 +1,4 @@
-<h1 align="center"> Machine Learning and GCP </h1> <br>
+<h1 align="center"> Finance, Machine Learning, and GCP </h1> <br>
 <p align="center">
   <a href="https://gitpoint.co/">
     <img alt="" width="450">
