@@ -52,7 +52,7 @@ There is a difference between regression that uses variables to explain the resp
 <p align="center"><img width=80% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/animated_forecast.gif"></p>
 
 ### Exploratory Data analysis
-The general decision tree for narrowing which type of model cyou be more probable is in the following. For example, your best bet would be using matrix factorization to recommend an item.
+The general decision tree for narrowing which type of model could be more probable is in the following. For example, your best bet would be using matrix factorization to recommend an item.
 
 <p align="center"><img width=80% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/model_matrix.png"></p>
 
