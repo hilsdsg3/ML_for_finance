@@ -1,4 +1,5 @@
-/.zip
+*.zip
 *.xlsx
 *.csv
-/.ipynb_checkpoints
+trainging-data-analyst\*
+*.mp4

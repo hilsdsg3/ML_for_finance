@@ -12,7 +12,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Notes](#notes)
+- [Machine Learning Factors](#Machine_learning_factors)
 - [Demo](#demo)
 - [Contributors](#contributors)
 - [Backers](#backers-)
@@ -23,16 +23,13 @@
 
 ## Introduction
 
+This is an ongoing project of the intersection between machine learning, finance, and the Google Cloud Platform. I will touch on each of the bulleted topics. 
 
-View repository and user information, control your notifications and even manage your issues and pull requests. Built with React Native, GitPoint is one of the most feature-rich unofficial GitHub clients that is 100% free.
-
-**Available for both iOS and Android.**
-
-## Notes
+### Machine Learning Factors
 
 Endogenous factors :
 * Depends on trading data
-* Techinical strategy model
+* Technical strategy model
 * Price data - price trends and volatility
 * Order book - size of orders at the bid and ask price
 * Volume data - traded amount of shares
@@ -41,9 +38,16 @@ Exogenous factors :
 * Depends on fundamental / macro data
 * Event driven strategy model
 * Earnings data
-* Supply or custmer shock
+* Supply or customer shock
 
-## Demo
+### Forecasting
+It is a process of making predictions of the future based on past trends and it can be made with either quantitative and/or qualitative methods. 
+Forecasting can either be achieved by casual regression where the model relationship between at least two variables : explanatory and response.
+Time series is another type of forcasting and is a simple average of all past data as a forecast.
+
+<p align="center"><img width=80% src="https://github.com/hilsdsg3/Econometric_data/blob/master/meta_data/media/Bull_bear.jpg"></p>
+
+### Models
 
 Building a model with BigQuery ML
 
@@ -55,19 +59,14 @@ Does the freshness of my data matter a little or a lot ?
 What assumptions is my model taking ? Retested very often
 Is there a combination of things I could model ?
 
-- Case study : Moddelling CPU Performance by vendor with BigQuery
+- Case study : Modeling CPU Performance by vendor with BigQuery
 
 Given raw inputs such s vendor, max_mhz, os .... can you predict the benchmark score. The prediction model setup is linear regression with BigQuery ML.
 
 
 ## Contributors
 
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification and is brought to you by these [awesome contributors](./CONTRIBUTORS.md).
-
-
 Please take a look at the [contributing guidelines](./CONTRIBUTING.md) for a detailed process on how to build your application as well as troubleshooting information.
-
-**Development Keys**: The `CLIENT_ID` and `CLIENT_SECRET` in `api/index.js` are for development purposes and do not represent the actual application keys. Feel free to use them or use a new set of keys by creating an [OAuth application](https://github.com/settings/applications/new) of your own. Set the "Authorization callback URL" to `gitpoint://welcome`.
 
 ## Backers [![Backers on Open Collective](https://opencollective.com/git-point/backers/badge.svg)](#backers)
 
@@ -89,3 +88,4 @@ Please take a look at the [contributing guidelines](./CONTRIBUTING.md) for a det
 ## Acknowledgments
 
 Thanks to [JetBrains](https://www.jetbrains.com) for supporting us with a [free Open Source License](https://www.jetbrains.com/buy/opensource).
+
