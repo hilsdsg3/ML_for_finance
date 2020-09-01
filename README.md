@@ -45,7 +45,9 @@ It is a process of making predictions of the future based on past trends and it 
 Forecasting can either be achieved by casual regression where the model relationship between at least two variables : explanatory and response.
 Time series is another type of forcasting and is a simple average of all past data as a forecast.
 
-<p align="center"><img width=80% src="https://github.com/hilsdsg3/Econometric_data/blob/master/meta_data/media/Bull_bear.jpg"></p>
+<p align="center"><img width=80% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/forecasting.png"></p>
+
+<p align="center"><img width=80% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/animated_forecast.gif"></p>
 
 ### Models
 
