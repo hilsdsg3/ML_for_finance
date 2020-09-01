@@ -45,9 +45,16 @@ It is a process of making predictions of the future based on past trends and it 
 Forecasting can either be achieved by casual regression where the model relationship between at least two variables : explanatory and response.
 Time series is another type of forcasting and is a simple average of all past data as a forecast.
 
-<p align="center"><img width=80% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/forecasting.png"></p>
+There is a difference between regression that uses variables to explain the response AD time series forecast which uses past data to predict the future.
+
+<p align="center"><img width=60% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/forecasting.png"></p>
 
 <p align="center"><img width=80% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/animated_forecast.gif"></p>
+
+### Exploratory Data analysis
+The general decision tree for narrowing which type of model cyou be more probable is in the following. For example, your best bet would be using matrix factorization to recommend an item.
+
+<p align="center"><img width=80% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/model_matrix.png"></p>
 
 ### Models
 
