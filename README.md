@@ -9,10 +9,10 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Machine Learning Factors](#Machine_learning_factors)
-- [Demo](#demo)
+- [Machine Learning Factors](#machine_learning_factors)
+- [Forecasting](#Forecasting)
 - [Contributors](#contributors)
-- [Backers](#backers-)
+- [Exploratory Data Analysis](#exploratory_data_analysis)
 - [Sponsors](#sponsors-)
 - [Acknowledgments](#acknowledgments)
 
@@ -22,7 +22,7 @@
 
 This is an ongoing project of the intersection between machine learning, finance, and the Google Cloud Platform. I will touch on each of the bulleted topics. 
 
-### Machine Learning Factors
+### Machine_Learning_Factors
 
 Endogenous factors :
 * Depends on trading data
@@ -40,7 +40,7 @@ Exogenous factors :
 ### Forecasting
 It is a process of making predictions of the future based on past trends and it can be made with either quantitative and/or qualitative methods. 
 Forecasting can either be achieved by casual regression where the model relationship between at least two variables : explanatory and response.
-Time series is another type of forcasting and is a simple average of all past data as a forecast.
+Time series is another type of forecasting and is a simple average of all past data as a forecast.
 
 There is a difference between regression that uses variables to explain the response AD time series forecast which uses past data to predict the future.
 
@@ -48,7 +48,7 @@ There is a difference between regression that uses variables to explain the resp
 
 <p align="center"><img width=80% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/animated_forecast.gif"></p>
 
-### Exploratory Data analysis
+### Exploratory_Data_Analysis
 The general decision tree for narrowing which type of model could be more probable is in the following. For example, your best bet would be using matrix factorization to recommend an item.
 
 <p align="center"><img width=80% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/model_matrix.png"></p>
@@ -69,6 +69,18 @@ Is there a combination of things I could model ?
 
 Given raw inputs such s vendor, max_mhz, os .... can you predict the benchmark score. The prediction model setup is linear regression with BigQuery ML.
 
+### Time Series
+
+A time series is a series of continuous data points or sequence indexed in successive equally spaced points in time of discrete-time data.
+
+Stationarity is an important concept because of the statistical nature of the data when stationary is independent of time. For example , the mean of the price in a window of time usually is not consistent. But the return or difference of the pricing data is.
+
+Another added concept to a trend is seasonal and cyclical.  
+
+The importance of stationarity is it allows model stability because certain statistics such as mean and variance do not change over time.  
+
+For example with exponential data such as GDP data , since it does have an exponential trend you should difference it twice to obtain stationary data.    
+To verify if the data is stationary run a Augmented Dickey-Fuller test.
 
 ## Contributors
 
