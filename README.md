@@ -42,7 +42,7 @@ It is a process of making predictions of the future based on past trends and it 
 Forecasting can either be achieved by casual regression where the model relationship between at least two variables : explanatory and response.
 Time series is another type of forecasting and is a simple average of all past data as a forecast.
 
-There is a difference between regression that uses variables to explain the response AD time series forecast which uses past data to predict the future.
+There is a difference between regression that uses variables to explain the response and time series forecast which uses past data to predict the future.
 
 <p align="center"><img width=60% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/forecasting.png"></p>
 
