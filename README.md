@@ -10,10 +10,8 @@
 
 - [Introduction](#introduction)
 - [Machine Learning Factors](#machine_learning_factors)
-- [Forecasting](#Forecasting)
-- [Contributors](#contributors)
-- [Exploratory Data Analysis](#exploratory_data_analysis)
-- [Sponsors](#sponsors-)
+- [Forecasting](#forecasting)
+- [Exploratory Data Analysis for ML](#exploratory_data_analysis_for_ml)
 - [Acknowledgments](#acknowledgments)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -48,8 +46,8 @@ There is a difference between regression that uses variables to explain the resp
 
 <p align="center"><img width=80% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/animated_forecast.gif"></p>
 
-### Exploratory_Data_Analysis
-The general decision tree for narrowing which type of model could be more probable is in the following. For example, your best bet would be using matrix factorization to recommend an item.
+### Exploratory_Data_Analysis_for_ML
+The general decision tree for narrowing which type of machine learning model could be more probable is in the following. For example, your best bet would be using matrix factorization to recommend an item.
 
 <p align="center"><img width=80% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/model_matrix.png"></p>
 
