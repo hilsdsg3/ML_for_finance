@@ -79,3 +79,4 @@ For example with US GDP data it has an exponential trend. From math we probably 
 The result with the US GDP data after differencing twice is an ADF value of -15 vs the 5% critical characteristic of -2.873, therefore the tie series is stationary.   
 
 
+
