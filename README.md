@@ -17,7 +17,10 @@
 
 ## Introduction
 
-This is an ongoing project of the intersection between machine learning, finance, and the Google Cloud Platform. I will touch on each of the bulleted topics. 
+This is an ongoing project of the intersection between machine learning, finance, and the Google Cloud Platform. I will touch on each of the bulleted topics. I have accompanying Jupyter notebook. There is alot of content in the jupyter notebook so it is best to select the Table of Contents like below and select a topic.
+
+<p align="center"><img width=80% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/table_of_contents.png"></p>
+
 
 ### Machine_Learning_Factors
 
@@ -77,6 +80,8 @@ For example with US GDP data it has an exponential trend. From math we probably 
 <p align="center"><img width=60% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/GDP.png"></p>
 
 The result with the US GDP data after differencing twice is an ADF value of -15 vs the 5% critical characteristic of -2.873, therefore the tie series is stationary.   
+
+Another important concept of time series is autocorrelation which is the correlation of data point with different piriods in the past.
 
 
 
