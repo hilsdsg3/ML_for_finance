@@ -17,7 +17,7 @@
 
 ## Introduction
 
-This is an ongoing project of the intersection between machine learning, finance, and the Google Cloud Platform. I will touch on each of the bulleted topics. I have accompanying Jupyter notebook. There is alot of content in the [jupyter notebook](https://github.com/hilsdsg3/ML_for_finance/blob/master/time_series_EDA.ipynb) so it is best to select the Table of Contents like below and select a topic.
+This is an ongoing project of the intersection between machine learning, finance, and the Google Cloud Platform. I will touch on each of the bulleted topics. I have accompanying Jupyter notebook. There is alot of content in the [jupyter notebook](https://github.com/hilsdsg3/ML_for_finance/blob/master/repo_nb.ipynb) so it is best to select the Table of Contents like below and select a topic.
 
 <p align="center"><img width=80% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/table_of_contents.png"></p>
 
