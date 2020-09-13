@@ -11,7 +11,8 @@
 - [Introduction](#introduction)
 - [Machine Learning Factors](#machine_learning_factors)
 - [Forecasting](#forecasting)
-- [Exploratory Data Analysis for ML](#exploratory_data_analysis_for_ml)
+- [Time_Series](#time_series)
+- [Machine_Learning_Model](#machine_learning_model)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -48,12 +49,24 @@ There is a difference between regression that uses variables to explain the resp
 
 <p align="center"><img width=80% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/animated_forecast.gif"></p>
 
-### Exploratory_Data_Analysis_for_ML
+### Time_Series
+
+A time series is a series of continuous data points or sequence indexed in successive equally spaced points in time of discrete-time data.
+
+An important concept is stationary time series data. Time series data is used for creating a model to perform strategy analysis or price prediction. In order to create such a model a stable mean and variance must be found from the entire time series. This mean and variance in a stationary time series is said to be independent of time. Pricing and other time series data is not usually stationary but there are tools to help with this.
+
+For example with US GDP data it has an exponential trend. From math we probably will need to take two derivatives of the data to get a stable mean and variance. Also to verify that it indeed would be stationary we can run a Augmented Dickey-Fuller test. [Python notebook link](https://hilsdsg3.github.io/ML_for_finance/)
+
+<p align="center"><img width=60% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/GDP.png"></p>
+
+The result with the US GDP data after differencing twice is an ADF value of -15 vs the 5% critical characteristic of -2.873, therefore the tie series is stationary.   
+
+Another important concept of time series is autocorrelation which is the correlation of data point with different piriods in the past.
+
+### Machine_Learning_Model
 The general decision tree for narrowing which type of machine learning model could be more probable is in the following. For example, your best bet would be using matrix factorization to recommend an item.
 
 <p align="center"><img width=80% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/model_matrix.png"></p>
-
-### Models
 
 Building a model with BigQuery ML
 
@@ -69,19 +82,6 @@ Is there a combination of things I could model ?
 
 Given raw inputs such s vendor, max_mhz, os .... can you predict the benchmark score. The prediction model setup is linear regression with BigQuery ML.
 
-### Time Series
-
-A time series is a series of continuous data points or sequence indexed in successive equally spaced points in time of discrete-time data.
-
-An important concept is stationary time series data. Time series data is used for creating a model to perform strategy analysis or price prediction. In order to create such a model a stable mean and variance must be found from the entire time series. This mean and variance in a stationary time series is said to be independent of time. Pricing and other time series data is not usually stationary but there are tools to help with this.
-
-For example with US GDP data it has an exponential trend. From math we probably will need to take two derivatives of the data to get a stable mean and variance. Also to verify that it indeed would be stationary we can run a Augmented Dickey-Fuller test. [Python notebook link](https://hilsdsg3.github.io/ML_for_finance/)
-
-<p align="center"><img width=60% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/GDP.png"></p>
-
-The result with the US GDP data after differencing twice is an ADF value of -15 vs the 5% critical characteristic of -2.873, therefore the tie series is stationary.   
-
-Another important concept of time series is autocorrelation which is the correlation of data point with different piriods in the past.
 
 
 
