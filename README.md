@@ -19,7 +19,7 @@
 
 ## Introduction
 
-This is an ongoing project of the intersection between machine learning, finance, and the Google Cloud Platform. I will touch on each of the bulleted topics. I have accompanying Jupyter notebook. There is alot of content in the [jupyter notebook](https://github.com/hilsdsg3/ML_for_finance/blob/master/repo_nb.ipynb) so it is best to select the Table of Contents like below and select a topic.
+This is an ongoing project of the intersection between machine learning, finance, and the Google Cloud Platform. I will touch on each of the bulleted topics. I have accompanying Jupyter notebook. There is a lot of content in the [Jupyter notebook](https://github.com/hilsdsg3/ML_for_finance/blob/master/repo_nb.ipynb) so it is best to select the Table of Contents like below and select a topic.
 
 <p align="center"><img width=50% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/table_of_contents.png"></p>
 
@@ -102,11 +102,4 @@ Validation data and training data have totally independant to prevent the model 
 
 ## GCP_ML
 
-TensorFlow is an open-source, high performance library for numerical computation that uses directed graphs. A tensor is a n-dimensional array like a 1D, 2D, 3D .... arrays. 
-
-
-
-
-
-
-
+TensorFlow is an open-source, high performance library for numerical computation that uses directed graphs. A tensor is a n-dimensional array like a 1D, 2D, 3D .... arrays.
