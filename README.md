@@ -96,10 +96,22 @@ Does the freshness of my data matter a little or a lot ?
 What assumptions is my model taking ? Retested very often
 Is there a combination of things I could model ?
 
-Genralization of machine learning models means how well the model fits the data and is usually measured by Root-Mean-Square-Model (RSME) or MSE.
+Generalization of machine learning models means how well the model fits the data and is usually measured by Root-Mean-Square-Model (RSME) or MSE.
 
-Validation data and training data have totally independant to prevent the model learning on the validation data. Because sometimes there is only a limited amount of data, one strategy is cross-validation. By using cross-validation one can obtain a more stable model averaging the RSME across all sets of validation data like in the testing window above in the forcasting section.
+Validation data and training data have totally independent to prevent the model learning on the validation data. Because sometimes there is only a limited amount of data, one strategy is cross-validation. By using cross-validation one can obtain a more stable model averaging the RSME across all sets of validation data like in the testing window above in the forecasting section.
+
+Overfitting and underfitting is also important when creating a model. In the red line on the following graph, it does not follow the trends in the stock data. The overfit blue line does following the trend but the training model probably will not be generalizable on the forecast accuracy. The green line fit the trends of the stock data an is most likely generalizable.       
+
+<p align="center"><img width=60% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/overfit_underfit.png"></p>
 
 ## GCP_ML
 
 TensorFlow is an open-source, high performance library for numerical computation that uses directed graphs. A tensor is a n-dimensional array like a 1D, 2D, 3D .... arrays.
+tf.constant() # cannot be modified
+tf.variable() # CAN be modified
+
+TensorFlow can compute the derivative of a function with respect to any parameter and the computation is recorded with GradientTape. 
+
+For basic to medium machine learning models, use the top layer of abstraction. This is all that is needed.
+
+<p align="center"><img width=60% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/TensorFlow_abstration_layers.png"></p>
