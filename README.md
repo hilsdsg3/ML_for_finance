@@ -115,3 +115,22 @@ TensorFlow can compute the derivative of a function with respect to any paramete
 For basic to medium machine learning models, use the top layer of abstraction. This is all that is needed.
 
 <p align="center"><img width=60% src="https://github.com/hilsdsg3/ML_for_finance/blob/master/metadata/TensorFlow_abstration_layers.png"></p>
+
+TensorFlow has many helpful functions.
+For instance, linear regression of y = slope * x + intercept where y = 1.5 x + 20. The full result is in the Jupyter notebook but the mean square result was 0.001.
+```
+	X	Y		Y_hat	diff_Y
+0	0.0	20.0	19.9	-0.07
+1	1.0	21.5	21.4	-0.06
+2	2.0	23.0	23.0	-0.05
+3	3.0	24.5	24.5	-0.03
+4	4.0	26.0	26.0	-0.02
+5	5.0	27.5	27.5	-0.01
+6	6.0	29.0	29.0	-0.00
+7	7.0	30.5	30.5	0.01
+8	8.0	32.0	32.0	0.02
+9	9.0	33.5	33.5	0.03
+```
+
+
+
