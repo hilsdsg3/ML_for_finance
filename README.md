@@ -119,7 +119,7 @@ For basic to medium machine learning models, use the top layer of abstraction. T
 TensorFlow has many helpful functions.
 For instance, linear regression of y = slope * x + intercept where y = 1.5 x + 20. The full result is in the Jupyter notebook but the mean square result was 0.001.
 ```
-	X	Y		Y_hat	diff_Y
+	X	Y	Y_hat	diff_Y
 0	0.0	20.0	19.9	-0.07
 1	1.0	21.5	21.4	-0.06
 2	2.0	23.0	23.0	-0.05
