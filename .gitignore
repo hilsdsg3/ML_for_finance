@@ -3,3 +3,6 @@
 *.csv
 training-data-analyst/*
 *.mp4
+runLogs/*
+tb_logs/*
+MQKmodel.pkl
